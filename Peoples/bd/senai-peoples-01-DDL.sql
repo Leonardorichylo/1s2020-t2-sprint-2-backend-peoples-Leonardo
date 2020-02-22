@@ -1,0 +1,13 @@
+--Criar Banco Dados--
+CREATE DATABASE M_PEOPLES;
+GO
+
+USE M_Peoples;
+GO
+
+CREATE TABLE Funcionarios(
+	IdFuncionario	INT PRIMARY KEY IDENTITY
+	,Nome		VARCHAR (255) NOT NULL
+	,Sobrenome VARCHAR (255) NOT NULL
+	);
+GO
